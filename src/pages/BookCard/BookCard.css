@@ -1,0 +1,74 @@
+/* ShwoingB.css */
+
+/* Container for the book list */
+.book-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    gap: 20px; /* Space between the book cards */
+    padding: 20px; /* Padding around the container */
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Book item card styling */
+.book-card {
+    border: 1px solid #ddd; /* Light border around each book card */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background for book cards */
+    overflow: hidden; /* Ensure no overflow outside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    width: 200px; /* Fixed width for book cards */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for book cards */
+.book-card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Image styling */
+.book-image {
+    width: 100%; /* Make image span the full width of the card */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Details section styling */
+.book-details {
+    padding: 15px; /* Padding inside the details section */
+}
+
+/* Book title styling */
+.book-details h3 {
+    font-size: 1.2em; /* Larger font size for title */
+    margin: 0; /* Remove default margin */
+    color: #333; /* Dark grey color for text */
+}
+
+/* Author name styling */
+.book-details p {
+    margin: 5px 0; /* Margin above and below text */
+    color: #666; /* Medium grey color for text */
+}
+
+/* Actions section styling */
+.book-actions {
+    display: flex;
+    justify-content: space-between; /* Space buttons apart */
+    padding: 10px; /* Padding inside the actions section */
+    border-top: 1px solid #ddd; /* Border above the actions section */
+}
+
+/* Button styling */
+.book-actions button {
+    background-color: #007bff; /* Blue background for buttons */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    padding: 8px 12px; /* Padding inside buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.book-actions button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

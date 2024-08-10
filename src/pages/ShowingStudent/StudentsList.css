@@ -1,0 +1,57 @@
+/* StudentsList.css */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f874;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.loading {
+    text-align: center;
+    color: #007BFF;
+    font-size: 18px;
+}
+
+.error {
+    text-align: center;
+    color: rgb(129, 70, 70);
+    font-size: 18px;
+}
+
+.noData {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: #888;
+}

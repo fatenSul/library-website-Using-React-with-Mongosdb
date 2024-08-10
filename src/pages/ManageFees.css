@@ -1,0 +1,53 @@
+/* src/pages/ManageFees.css */
+
+.manage-fees-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.manage-fees-container h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.manage-fees-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.manage-fees-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.manage-fees-form select,
+.manage-fees-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.manage-fees-form button {
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.manage-fees-form button:hover {
+    background-color: #0056b3;
+}
